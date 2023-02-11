@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d1326aea36a23d07",
+        "id": "826235a3c7b81de0",
         "type": "tabs",
         "children": [
           {
-            "id": "82052306c9fcd435",
+            "id": "2badbff381e9c88c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,6 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82052306c9fcd435",
-  "lastOpenFiles": []
+  "active": "2badbff381e9c88c",
+  "lastOpenFiles": [
+    "갈고리 모음.md",
+    "c++ std98.md"
+  ]
 }
