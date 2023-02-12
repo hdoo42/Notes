@@ -4,19 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0ef706998093e4a6",
+        "id": "3a41635fae45e774",
         "type": "tabs",
         "children": [
           {
-            "id": "d5b281d410b1dee8",
+            "id": "9e598206b2ad6fe0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Class diagram.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "a783af1082c9838f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class diagram.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eadea33bebc3a51f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -146,17 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5b281d410b1dee8",
+  "active": "9e598206b2ad6fe0",
   "lastOpenFiles": [
-    "Utils.md",
-    "reuse_address_bind.md",
+    "event_worker.md",
     "Class diagram.md",
-    "infomations/addrinfo.md",
-    "infomations/syscalls.md",
-    "infomations/Protocols.md",
-    "Untitled.md",
-    "bind_socket.md",
-    "infomations/FIFO.md",
-    "Untitled 1.md"
+    "Concepts/FIFO.md",
+    "Biology.md"
   ]
 }

@@ -7,9 +7,9 @@ Depending on the order of execution, the race may lead to the file descriptor re
 (This kind of race is in principle possible for any system call that creates a file descriptor whose close-on-exec flag should be set, and various other Linux system calls provide an equivalent of the **O_CLOEXEC** flag to deal with this problem.)
 
 ---
-#Q why doesn't effect nonblock on the operation of poll, select, epoll?
+#Q Why doesn't nonblock affect on the operation of poll, select, epoll?
 
-and why the hell we use them?
+and why the hell do we use them?
 
 Note that the setting of this flag has no effect on the
 operation of [poll(2)](https://man7.org/linux/man-pages/man2/poll.2.html), [select(2)](https://man7.org/linux/man-pages/man2/select.2.html), [epoll(7)](https://man7.org/linux/man-pages/man7/epoll.7.html), and similar,
