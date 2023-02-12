@@ -7,5 +7,16 @@
       ],
       "key": "E"
     }
+  ],
+  "editor:fold-less": [],
+  "editor:fold-more": [],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }

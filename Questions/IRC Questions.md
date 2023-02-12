@@ -46,13 +46,17 @@ So, stream doesn't do task stand alone, but server makes accepts, and make child
 
 
 ---
-
 #### #Q Why set O_NONBLOCK even if doesn't affect to select, (e)poll, and similar?
-
 It does effect on kqueue?
 
-
+---
 #### #Q why use `size_type()` instead of 0
 in byte_buffer.hpp:140;
 
-#### #Q start server takes make_server_t, what is this?
+---
+#### #Q server_bootstrap takes make_server_t, what is this?
+
+---
+#### #Q what is boss mean in bootstrap
+
+
