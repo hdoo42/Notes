@@ -10,6 +10,7 @@ Depending on the order of execution, the race may lead to the file descriptor re
 #Q Why doesn't nonblock affect on the operation of poll, select, epoll?
 
 and why the hell do we use them?
+#in_real because, read have to be non-block
 
 Note that the setting of this flag has no effect on the
 operation of [poll(2)](https://man7.org/linux/man-pages/man2/poll.2.html), [select(2)](https://man7.org/linux/man-pages/man2/select.2.html), [epoll(7)](https://man7.org/linux/man-pages/man7/epoll.7.html), and similar,
@@ -31,7 +32,3 @@ For the handling of FIFOs (named pipes), see also [fifo(7)](https://man7.org/lin
 For a discussion of the effect of **O_NONBLOCK** in
 conjunction with mandatory file locks and with file
 leases, see [fcntl(2)](https://man7.org/linux/man-pages/man2/fcntl.2.html).
-
-
-
-

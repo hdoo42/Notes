@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b5bd83823822dd00",
+        "id": "2a72c9c345fce10b",
         "type": "tabs",
         "children": [
           {
-            "id": "c823f740215bbc0c",
+            "id": "1001f64a4b716415",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fcntl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7a983c09c679a28f",
@@ -147,7 +149,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c823f740215bbc0c",
+  "active": "1001f64a4b716415",
   "lastOpenFiles": [
     "Not yet understood.md",
     "IRC Questions.md",

@@ -1,4 +1,4 @@
-#### #Q Why do some typedefs end with `_t' and others with `_type'? 
+#### #Q Why do some typedefs end with `_t` and others with `_type`? 
 
 #conjecture
  *`_t`* for simple typedef(trivial types)
@@ -7,8 +7,6 @@
 ----
 #### #Q What is `__base` in size_type of byte_buffer?
 Especially in our irc project, it is just a vector type.
-
-
 
 ----
 #### #Q Why redefine after #cpp14?
@@ -44,15 +42,19 @@ So stream doesn't do task stand alone, but server makes accepts, and make child 
 
 #SUB #Q Is stream always child of server? or can it be independent?
 
-
 ---
-
 #### #Q Why set O_NONBLOCK even if it doesn't affect select, (e)poll, and similar?
 
 Does it affect kqueue?
+
+#in_real it will be used in non-block read.
 
 
 #### #Q Why use `size_type()` instead of 0 in byte_buffer.hpp?
 in byte_buffer.hpp:140;
 
+for compatability.
+
+
 #### #Q start_server takes make_server_t, what is that?
+

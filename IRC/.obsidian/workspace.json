@@ -4,39 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3a41635fae45e774",
+        "id": "0fc3459fe18a271a",
         "type": "tabs",
         "children": [
           {
-            "id": "9e598206b2ad6fe0",
+            "id": "7c2baf0aa5703b2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class diagram.md",
+                "file": "event_channel.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "a783af1082c9838f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class diagram.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eadea33bebc3a51f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -85,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c2a25b7475948f0e",
@@ -105,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class diagram.md",
+                "file": "event_channel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class diagram.md",
+                "file": "event_channel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class diagram.md"
+                "file": "event_channel.md"
               }
             }
           }
@@ -166,10 +148,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e598206b2ad6fe0",
+  "active": "7c2baf0aa5703b2e",
   "lastOpenFiles": [
-    "event_worker.md",
     "Class diagram.md",
+    "event_worker.md",
+    "event_worker_group.md",
+    "infomations/syscalls.md",
+    "Utils.md",
+    "event_channel.md",
     "Concepts/FIFO.md",
     "Biology.md"
   ]

@@ -3,7 +3,7 @@
 ```mermaid
 graph TD
 classA --상속 관계--> classB
-classA -.그냥 다른 관계?.->classC
+classA -.종류.->classC
 ```
 
 # event classes hierarchy

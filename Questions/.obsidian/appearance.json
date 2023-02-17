@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "cssTheme": "Catppuccin",
+  "interfaceFontFamily": "VictorMono Nerd Font",
+  "textFontFamily": "VictorMono Nerd Font"
 }
