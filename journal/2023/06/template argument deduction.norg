@@ -1,0 +1,13 @@
+Template argument can be a type itself, or value of some type.
+
+If given argument doesn't have anything that has to have, match fails.
+@code cpp
+template <typename T>
+void foo(T a)
+{
+	a.print();
+}
+@end
+in this case, If type *T* doesn't have print() method implementation, deduction *fails*, resulting in a compilation *error*.
+
+In order to [instantiate]{:$/c++ terms:$ Function template instantiation} a function template, every template arguments must be known, but not all element has to be specified.

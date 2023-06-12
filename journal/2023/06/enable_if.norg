@@ -1,0 +1,20 @@
+* Possible implementation
+
+@code cpp
+template<bool B, typename T>
+struct enable_if {}
+
+template<typename T>
+struct enable_if<true, T>
+{
+	typedef T type;
+}
+@end
+
+  B is a boolean type that is responsible for verifying whether it is enabled or not.
+
+  In this implementation, if the result of the check is /*true*/, you can access the T type, which can be utilized. 
+
+  However, if the check /*fails*/, the {:template argument deduction:} also fails, resulting in a compilation error.
+
+  This approach enables compile-time checks to ensure the validity of the code.
